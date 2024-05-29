@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: ;
+}
+body{
+    background-color: #E5E4E2;
+    font-family: "Raleway", sans-serif;
+}
+.container{
+   height: 800px;
+   width: 100%;
+   background-color: #E5E4E2;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    background-color:transparent;
+    color:  white;
+    position: absolute;
+}
+nav ul{
+    display: flex;
+    gap: 7%;
+    padding-top: 40px;
+    margin-left: 690px;
+}
+nav li{
+    list-style-type: none;
+    opacity: 1;
+}
+nav h2{
+    font-weight: normal;
+    position: relative;
+    bottom: 20px;
+    margin-left: 110px; 
+}
+.container img{
+    height: 750px;
+    width: 100%;
+}
+.C1{
+    background-color: ;
+    width: 750px;
+    height: 300px;
+    position: relative;
+    bottom: 70%;
+    left: 22%;
+}
+.C1 h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    font-size: 45px;
+    font-weight: normal;
+    color: white;
+}
+.C1 h3{
+    font-weight: lighter;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+.C1 button{
+    width: 160px;
+    height: 60px;
+    background-color: #2667bd;
+    opacity: 0.9;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    margin-top: 30px;
+    margin-left: 38%;
+}
+.C1 button:hover{
+    opacity: 1;
+}
+.C2{
+    width: 700px;
+    height: 150px;
+    background-color: ;
+    position: relative;
+    left: 23%;
+    margin-top: 10%;
+    text-align: center;
+}
+.C2 h2{
+    font-weight: normal;
+    font-size: 30px;
+}
+.C2 p{
+    font-size: 22px;
+    opacity: 0.4;
+    padding-top: 15px;
+}
+.l1{
+    height: 380px;
+    width: 320px;
+    background-color: white;
+    margin-left: 100px;
+    text-align: center;
+    border-radius: 5px;
+}
+.l1 span{
+    font-size: 22px;
+    line-height: 50px;
+}
+.l1 p{
+    line-height: 25px;
+    font-size: 18px;
+}
+.m1{
+    display: flex;
+}
+.l1:hover{
+    box-shadow: 0 6px 6px 3px grey;
+    transition: 1s;
+}
+.footer{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(53, 44, 44);
+    margin-top: 200px;
+    display: flex;
+    gap:2%;
+}
+.footer ul{
+    padding: 200px 100px;
+    line-height: 40px;
+}
+.footer li{
+    color: white;
+    list-style: none;
+    opacity: 0.4;
+}
+.footer li:hover{
+    color: rgb(47, 47, 204);
+}
+#a1{
+    opacity: 0.7; 
+}
